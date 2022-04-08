@@ -1,0 +1,59 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 3vh;
+}
+
+
+.card1 {
+
+    width: 40%;
+    height: 160%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;   
+}
+
+.container {
+    padding: 2px 16px;
+  }
+
+img {
+    display: block;
+    align-items: center;
+    max-width: 30%;
+    max-height: 38%;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    /* Media queries go here */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Media queries go here */
+}
